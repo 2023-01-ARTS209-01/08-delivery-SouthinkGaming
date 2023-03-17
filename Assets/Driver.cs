@@ -14,7 +14,7 @@ public class Driver : MonoBehaviour {
         float steerAmount = Input.GetAxis("Horizontal") * stearSpeed * Time.deltaTime;
         float driveAmount = Input.GetAxis("Vertical") * driveSpeed * Time.deltaTime;
 
-        transform.Rotate(0, 0, -stearSpeed);
+        transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, driveAmount, 0);
     }
 }
