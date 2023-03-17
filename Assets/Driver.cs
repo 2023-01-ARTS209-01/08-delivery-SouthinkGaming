@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour {
     // Controles the stearing speed of the car
-    [SerializedField] float stearSpeed = 0.1f;
+    [SerializeField] float stearSpeed = 0.1f;
     // Controles the driving speed of the car
-    [SerializedField] float driveSpeed = 0.01f;
+    [SerializeField] float driveSpeed = 0.01f;
     // Start is called before the first frame update
     void Start() {}
     // Update is called once per frame
